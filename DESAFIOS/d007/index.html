@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexiveis</title>
+    
+</head>
+<body>
+    <h1>imagens de varios tamanhos</h1>
+    <p>O que sera que acontece se voce aumentar e diminuir <br> o tamanho do seu navegador? &#x1F920;</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.jpg" type="image/png">
+        <source media="(max-width: 1330px )" srcset="imagens/m.jpg" type="image/png">
+        <img src="imagens/g.jpg" alt="paisagem bonita">
+    </picture>
+</body>
+</html>

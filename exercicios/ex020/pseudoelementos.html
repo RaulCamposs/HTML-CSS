@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+        a{
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(109, 27, 27);
+        }
+
+        a:hover{
+            text-decoration:underline;
+            color: crimson;
+        }
+
+        a::after{
+            content: "[lol]";
+            color: pink;
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+        <li><a href="https://www.fortnite.com/item-shop?lang=pt-BR">Loja Fortnite</a></li>
+        <li><a href="https://www.nike.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=SN_NIKE-INST-ROAS&gad_source=1&gclid=CjwKCAiApsm7BhBZEiwAvIu2X2HJQ3PNn-ApW4s_D_T6PbH4K1PphreRSM6a8grxWVVB3uS4hXXtuxoCr_gQAvD_BwE&utm_referrer=https://www.google.com/">Nike</a></li>
+    </ul>
+</body>
+</html>

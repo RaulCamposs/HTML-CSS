@@ -1,0 +1,7 @@
+body{
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdGIriHwMYbjKJI76jDDK8KzXXSZhiNKGs9g&s');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px dashed black
+}

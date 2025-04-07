@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    background-position: top center;
+    background-image: url('imagens-cap19/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid blue ;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
